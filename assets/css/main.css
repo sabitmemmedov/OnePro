@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+body {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.navbarr {
+  background-color: transparent !important;
+}
+
+.nav-right {
+  justify-content: end;
+}
+
+.navbar-nav {
+  gap: 26px;
+}
+
+.nav-item a {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#sec-one {
+  padding: 60px 0;
+  background: url("/assets/img/slide-1.jpg");
+}
+#sec-one .sec-one-content {
+  padding: 80px 0;
+}
+#sec-one .sec-one-content .sec-one-text-content {
+  padding: 80px 0;
+}
+#sec-one .sec-one-content .sec-one-text-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+#sec-one .sec-one-content .sec-one-text-content h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+#sec-one .sec-one-content .sec-one-text-content p {
+  width: 38%;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+#sec-one .sec-one-content .sec-one-text-content button {
+  height: 51px;
+  width: 200px;
+  color: #fff;
+  border: 0;
+  background-color: #26b7e7;
+  font-weight: 600;
+}
+
+#sec-two {
+  padding: 60px 0;
+}
+#sec-two .sec-two-content {
+  padding: 60px 0;
+}
+#sec-two .sec-two-content .cardss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+#sec-two .sec-two-content .cardss .cardd {
+  width: 360px !important;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content {
+  text-align: center;
+  width: 360px;
+  margin: 0 auto;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content .iconDiv {
+  border: 1px solid #26b7e7;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content .iconDiv i {
+  font-size: 30px;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content p {
+  margin-bottom: 40px;
+}
+#sec-two .sec-two-content .cardss .cardd .card-content button {
+  border: 0;
+  border-radius: 6px;
+  padding: 10px 29px;
+  background-color: #26b7e7;
+  color: #fff;
+  font-weight: 500;
+}
+
+#sec-three {
+  padding: 60px 0;
+}
+#sec-three .sec-three-content .sec-three-text-content {
+  text-align: center;
+}
+#sec-three .sec-three-content .sec-three-text-content p {
+  width: 70%;
+  margin: 0 auto;
+}
+#sec-three .sec-three-content .sec-three-cards {
+  padding: 60px 0;
+}
+#sec-three .sec-three-content .sec-three-cards .card-content {
+  width: 270px;
+}
+#sec-three .sec-three-content .sec-three-cards .card-content img {
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+}
+footer p {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+  #sec-two {
+    padding: 60px 0;
+  }
+  #sec-two .sec-two-content {
+    padding: 60px 0;
+  }
+  #sec-two .sec-two-content .cardss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  #sec-two .sec-two-content .cardss .cardd {
+    width: 360px !important;
+  }
+  #sec-two .sec-two-content .cardss .cardd .card-content {
+    text-align: center;
+    width: 270px;
+    margin: 0 auto;
+  }
+}
